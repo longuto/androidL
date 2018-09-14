@@ -19,6 +19,7 @@ public class MainActivity extends Activity implements DrawerLayout.DrawerListene
         .OnDrawerItemSelectedListener {
 
     private DrawerLayout mDrawerLayout;
+
     private DrawerFragment mDrawerFragment;
     private ActionBarDrawerToggle mToggle;
     private BaseFragment mCurrentFragment;
